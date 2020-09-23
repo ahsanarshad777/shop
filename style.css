@@ -78,6 +78,7 @@ body::-webkit-scrollbar-thumb,.navbar::-webkit-scrollbar-thumb{
 .category-list{
   width: 100%;
   align-items: center;
+  list-style: none;
 }
 .category{
   display: none;
@@ -87,9 +88,6 @@ body::-webkit-scrollbar-thumb,.navbar::-webkit-scrollbar-thumb{
 .nav-link i{
   min-width:: 1.5rem;
   margin: 0 1.5rem;
-  /* top: 5px; */
-  /* position: relative; */
-
 }
 .navbar:hover{
   width:16rem;
@@ -113,6 +111,30 @@ body::-webkit-scrollbar-thumb,.navbar::-webkit-scrollbar-thumb{
   transition: 600ms;
 }
 
+/* sub category */
+/* .flex-click{
+    display: flex;
+} */
+#submenu{
+  width:100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+display: flex;
+  flex-direction: column;
+  align-items:center;
+  height: 100%;
+  visibility: hidden;
+
+}
+#menu ul {
+
+  display: none;
+
+}
+ul ul{
+  list-style-type: none;
+}
 /* logo */
 .logo{
   font-weight: bold;
@@ -124,6 +146,7 @@ body::-webkit-scrollbar-thumb,.navbar::-webkit-scrollbar-thumb{
   font: 1.5rem;
   letter-spacing: 0.3ch;
   width: 100%;
+    background-color: #141418;
 }
 .logo i{
 
@@ -135,5 +158,5 @@ body::-webkit-scrollbar-thumb,.navbar::-webkit-scrollbar-thumb{
 }
 
 .logo-name{
-  padding-left: 40px;
+  padding-left: 30px;
 }
