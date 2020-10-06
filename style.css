@@ -1,6 +1,6 @@
 body {
   color: black;
-  background-color: white;
+background: #f2f2f2;
   margin: 0;
   padding: 0;
 }
@@ -21,8 +21,10 @@ p {
 }
 
 #main-page {
-  margin-left: 4.5rem;
+  /* margin-left: 4.2rem; */
 padding-top: 3.8rem;
+margin-left: 100px;
+margin-right: 20px;
 }
 
 /* body scrollbar & menu scrolbar */
@@ -40,6 +42,7 @@ body::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
 /* Top Navigation Bar */
 .topnavbar{
   position: fixed;
+  z-index: 1;
   height: 3.8rem;
   width: 100%;
   background-color:  #0f4c75;
@@ -196,6 +199,7 @@ body::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
 .navbar:hover {
   width: 19rem;
   overflow: scroll;
+
 }
 
 .navbar:hover .category {
@@ -254,12 +258,152 @@ ul ul {
 .logo-name {
   padding-left: 30px;
 }
-
-
+/* left display */
+.left-display{
+  left: 2%;
+  width: 10%;
+  height: 20%
+  top: 5%;
+}
+/* right display */
+.right-display{
+right: 2%;
+width: 10%;
+height: 20%
+top: 5%;
+}
 /* Items Display */
 .display-images{
   width: 100%;
   height: 20rem;
+}
+/* carousel */
+
+#carousel-display{
+  margin: 30px 100px;
+  z-index: 0;
+
+}
+.carousel-inner {
+    border-radius: 8px;
+    overflow: hidden;
+}
+}
+.carousel-control-next, .carousel-control-prev {
+  z-index: 0
+}
+/* space */
+
+/* container */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1200px;
+}
+/* container Radius */
+.container-radius {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.container-radius:hover {
+    box-shadow: 0 1px 10px rgba(0,0,0,.12);
+}
+/* title */
+.title-info{
+  display: flex;
+
+
+
+}
+.title-container {
+    position: relative;
+    padding: 16px 16px 12px;
+    overflow: hidden;
+    display: flex;
+    background: white;
+    white-space: nowrap;
+
+}
+/* view more */
+.title-container .view-more {
+
+    line-height: 24px;
+}
+.view-more {
+    color: #999;
+    font-size: 12px;
+    margin-left:85%;
+
+}
+/* 1st Items display row list */
+.hotdeals {
+    overflow: hidden;
+    margin-top: 16px;
+    padding: 0 8px 12px;
+    background: white;
+
+}
+ .hotdeals .product-list .product-item {
+    width: 20%;
+}
+.hotdeals .product-list{
+  margin: 0;
+  padding-left: 10px;
+}
+.product-list li {
+    padding: 0 6px;
+    margin-left: 0;
+    list-style: none;
+}
+.product-list .img-wrapper {
+    overflow: hidden;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+.product-list li a {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.flex-horizontal{
+  display: flex;
+  -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.hotdeals .product-item .img-wrapper {
+    height: 224.8px;
+    max-width: 224.8px;
+}
+
+.align-items-center {
+    align-items: center;
+    -webkit-align-items: center;
+    box-align: center;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+}
+.justify-center {
+    -webkit-justify-content: center;
+    justify-content: center;
+    -moz-box-pack: center;
+    -webkit--moz-box-pack: center;
+    box-pack: center;
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 /* Footer */
@@ -416,7 +560,7 @@ background-color:  #0f4c75;
 }
 #main-page{
   transition: margin-left .5s; /* If you want a transition effect */
-  padding: 3.8rem 20px 0;
+  padding: 3.8rem 0px 0;
 
   margin-left: 0;
 }
