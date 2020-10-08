@@ -315,6 +315,18 @@ top: 5%;
 
 
 }
+.hotdeals h3{
+  font-size: 20px;
+}
+.title-icons {
+
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    padding-right: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .title-container {
     position: relative;
     padding: 16px 16px 12px;
@@ -592,13 +604,13 @@ ul ul{
 /* display for normal screens 1200px */
 @media only screen and (min-width: 1200px){
 .container {
-    max-width: 1300px;
+    max-width: 100%;
 }
 }
 /* display for larger screen 2560px 4k*/
 @media only screen and (min-width: 2560px){
 .container {
-    max-width: 92%;
+    max-width: 100%;
 }
 .display-images{
 
