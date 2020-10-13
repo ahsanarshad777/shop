@@ -289,18 +289,28 @@ ul ul {
   font-size: 50px;
 }
 
-#hotdeals-display .carousel-control-prev {
+#hotdeals-display .carousel-control-prev ,#electronics-display  .carousel-control-prev,#computers-display  .carousel-control-prev{
   justify-content: left;
 }
 
-#hotdeals-display .carousel-control-next {
+#hotdeals-display .carousel-control-next,#electronics-display  .carousel-control-next,#computers-display  .carousel-control-next {
   justify-content: right;
 }
 
-#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next {
-  width: 2.5%;
+#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next,#electronics-display  .carousel-control-prev,
+#electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next{
+  width: 2.2%;
   z-index: 0;
 }
+#electronics-display  .carousel-control-prev,
+#electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next{
+  width: 4%;
+  z-index: 0;
+}
+
+
 
 /* carousel */
 #carousel-display {
@@ -369,7 +379,12 @@ ul ul {
   font-size: 12px;
   margin-left: 85%;
 }
-
+/* Electronics & Computers View more */
+.electronics-and-computers .view-more{
+  color: #999;
+  font-size: 12px;
+  margin-left: 65%;
+}
 /* 1st Items display row list */
 .hotdeals {
   overflow: hidden;
@@ -473,6 +488,48 @@ ul ul {
   color: inherit;
 }
 
+/* 2nd Items display row list( Electronics ,Computers) */
+.electronics-and-computers {
+  margin-top: 16px;
+  display: flex;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+
+.computers, .electronics {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 8px 12px;
+  background: white;
+}
+.electronics{
+  margin-right:  1%;
+}
+
+.computers{
+ margin-left: 1%;
+}
+
+.computers .product-list .product-ite, .electronics .product-list .product-item {
+  width: 50%;
+}
+
+.electronics .product-list, .computers .product-list {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.electronics .product-item .img-wrapper, .computers .product-item .img-wrapper {
+  width: 100%;
+  max-width: 235px;
+  max-height: 162px;
+}
+
 /* Footer */
 #footer {
   text-align: center;
@@ -481,6 +538,9 @@ ul ul {
 .footer-icon {
   padding: 5% 1% 2% 1%;
 }
+
+
+/* Display for mobile Screen */
 
 @media only screen and (max-device-width:600px) {
 
@@ -604,7 +664,7 @@ ul ul {
     top: 0;
     padding-top: 0;
     right: 25px;
-    display: inline;
+    display: inherit;
     padding-bottom: 0;
     font-size: 36px;
     margin-left: 50px;
@@ -659,6 +719,28 @@ ul ul {
   .container {
     max-width: 100%;
   }
+/* 1st display (hot deals */
+.hotdeals .product-item .img-wrapper {
+  height: 170px;
+  max-width: 224.8px;
+}
+  /* 2nd display list (Electronics & Computer) */
+  .electronics .product-item .img-wrapper, .computers .product-item .img-wrapper {
+    width: 100%;
+    max-width: 180px;
+    max-height: 130px;
+  }
+  #electronics-display  .carousel-control-prev,
+  #electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
+  #computers-display  .carousel-control-next{
+    width: 6.5%;
+  }
+  /* Electronics & Computers View more */
+  .electronics-and-computers .view-more{
+    color: #999;
+    font-size: 12px;
+    margin-left: 55%;
+  }
 }
 
 /* display for normal screens 1200px */
@@ -686,10 +768,12 @@ ul ul {
     width: 100%;
     height: 40rem;
   }
+
   .product-list li {
     padding: 0 10px 0 130px;
   }
-  .left-arrow-icon{
+
+  .left-arrow-icon {
     padding-left: 20px;
   }
 }
