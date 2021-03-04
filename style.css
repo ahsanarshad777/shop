@@ -193,6 +193,7 @@ body::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
 .category {
   display: none;
   margin-left: 0rem;
+  ;
   text-align: left;
 }
 
@@ -267,7 +268,8 @@ ul ul {
 .left-display {
   left: 2%;
   width: 10%;
-  height: 20% top: 5%;
+  height: 20% ;
+  top: 5%;
 }
 
 /* right display */
@@ -289,23 +291,23 @@ ul ul {
   font-size: 50px;
 }
 
-#hotdeals-display .carousel-control-prev ,#electronics-display  .carousel-control-prev,#computers-display  .carousel-control-prev{
+#hotdeals-display .carousel-control-prev ,#smarthome-display .carousel-control-prev,#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,#computers-display  .carousel-control-prev,#automotive-display  .carousel-control-prev{
   justify-content: left;
 }
 
-#hotdeals-display .carousel-control-next,#electronics-display  .carousel-control-next,#computers-display  .carousel-control-next {
+#hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-next,#electronics-display  .carousel-control-next,,#arts-crafts-display .carousel-control-next,#  .carousel-control-next {
   justify-content: right;
 }
 
-#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next,#electronics-display  .carousel-control-prev,
-#electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
-#computers-display  .carousel-control-next{
+#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-prev, #smarthome-display .carousel-control-next,#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,
+#electronics-display  .carousel-control-next,#arts-crafts-display .carousel-control-next ,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display  .carousel-control-next{
   width: 2.2%;
   z-index: 0;
 }
 #electronics-display  .carousel-control-prev,
-#electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
-#computers-display  .carousel-control-next{
+#electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display .carousel-control-next,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next{
   width: 4%;
   z-index: 0;
 }
@@ -344,10 +346,11 @@ ul ul {
 
 /* title */
 .title-info {
+  width: 200px;
   display: flex;
 }
 
-.hotdeals h3 {
+.hotdeals h3 ,.smarthome h3{
   font-size: 20px;
 }
 
@@ -362,7 +365,7 @@ ul ul {
 
 .title-container {
   position: relative;
-  padding: 16px 16px 12px;
+  padding: 16px 16px 12px ;
   overflow: hidden;
   display: flex;
   background: white;
@@ -377,27 +380,27 @@ ul ul {
 .view-more {
   color: #999;
   font-size: 12px;
-  margin-left: 85%;
+  margin-left: 76%;
 }
 /* Electronics & Computers View more */
-.electronics-and-computers .view-more{
+.electronics-and-computers .view-more, .arts-crafts-and-automotive .view-more {
   color: #999;
   font-size: 12px;
-  margin-left: 65%;
+  margin-left: 50%;
 }
 /* 1st Items display row list */
-.hotdeals {
+.hotdeals ,.smarthome{
   overflow: hidden;
   margin-top: 16px;
   padding: 0 8px 12px;
   background: white;
 }
 
-.hotdeals .product-list .product-item {
+.hotdeals .product-list .product-item ,.smarthome .product-list .product-item{
   width: 20%;
 }
 
-.hotdeals .product-list {
+.hotdeals .product-list ,.smarthome .product-list {
   margin: 0;
   padding-left: 10px;
   padding-right: 15px;
@@ -432,7 +435,7 @@ ul ul {
   flex-direction: row;
 }
 
-.hotdeals .product-item .img-wrapper {
+.hotdeals .product-item .img-wrapper,.smarthome .product-item .img-wrapper {
   height: 224.8px;
   max-width: 224.8px;
 }
@@ -489,7 +492,7 @@ ul ul {
 }
 
 /* 2nd Items display row list( Electronics ,Computers) */
-.electronics-and-computers {
+.electronics-and-computers ,.arts-crafts-and-automotive{
   margin-top: 16px;
   display: flex;
   padding-left: 0;
@@ -498,7 +501,7 @@ ul ul {
 }
 
 
-.computers, .electronics {
+.computers, .electronics,.arts-crafts,.automotive {
   width: 50%;
   overflow: hidden;
   margin-left: 0;
@@ -506,25 +509,25 @@ ul ul {
   padding: 0 8px 12px;
   background: white;
 }
-.electronics{
+.electronics,.arts-crafts{
   margin-right:  1%;
 }
 
-.computers{
+.computers,.automotive{
  margin-left: 1%;
 }
 
-.computers .product-list .product-ite, .electronics .product-list .product-item {
+.computers .product-list .product-item,.automotive .product-list .product-item, .electronics .product-list .product-item,.arts-crafts .product-list .product-item {
   width: 50%;
 }
 
-.electronics .product-list, .computers .product-list {
+.electronics .product-list, .computers .product-list ,.automotive .product-list,.arts-crafts .product-list{
   margin: 0;
   padding-left: 10px;
   padding-right: 15px;
 }
 
-.electronics .product-item .img-wrapper, .computers .product-item .img-wrapper {
+.electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive  .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper{
   width: 100%;
   max-width: 235px;
   max-height: 162px;
@@ -577,20 +580,20 @@ ul ul {
   /*.sidebar-navbar{
       height: 100%; /* 100% Full-height */
   /* width: 0; /* 0 width - change this with JavaScript */
-  */
+
   /* position: fixed; /* Stay in place */
-  */
+
   /* z-index: 1; /* Stay on top */
-  */
+
   /* top: 3.8rem;
       left: 0;
       padding: 0rem 0rem;
       display: inline;
       background-color: #3282b8; */
   /* overflow-x: hidden; /* Disable horizontal scroll */
-  */
+
   /* transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  */
+
 
   /* } */
   .navbar-nav {
@@ -720,23 +723,23 @@ ul ul {
     max-width: 100%;
   }
 /* 1st display (hot deals */
-.hotdeals .product-item .img-wrapper {
+.hotdeals .product-item .img-wrapper ,.smarthome .product-item .img-wrapper {
   height: 170px;
   max-width: 224.8px;
 }
   /* 2nd display list (Electronics & Computer) */
-  .electronics .product-item .img-wrapper, .computers .product-item .img-wrapper {
+  .electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper {
     width: 100%;
     max-width: 180px;
     max-height: 130px;
   }
   #electronics-display  .carousel-control-prev,
-  #electronics-display  .carousel-control-next,#computers-display  .carousel-control-prev,
-  #computers-display  .carousel-control-next{
+  #electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display  .carousel-control-next,#computers-display  .carousel-control-prev,
+  #computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next{
     width: 6.5%;
   }
   /* Electronics & Computers View more */
-  .electronics-and-computers .view-more{
+  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more{
     color: #999;
     font-size: 12px;
     margin-left: 55%;
@@ -761,9 +764,12 @@ ul ul {
   }
 
   .view-more {
-    margin-left: 92%;
+    margin-left: 87%;
   }
+  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more{
 
+    margin-left: 73%;
+  }
   .display-images {
     width: 100%;
     height: 40rem;
