@@ -291,23 +291,26 @@ ul ul {
   font-size: 50px;
 }
 
-#hotdeals-display .carousel-control-prev ,#smarthome-display .carousel-control-prev,#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,#computers-display  .carousel-control-prev,#automotive-display  .carousel-control-prev{
+#hotdeals-display .carousel-control-prev ,#smarthome-display .carousel-control-prev,#baby-display .carousel-control-prev,#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,
+#computers-display  .carousel-control-prev,#automotive-display  .carousel-control-prev,#beauty-personal-care-display .carousel-control-prev,#womens-fashion-display .carousel-control-prev{
   justify-content: left;
 }
 
-#hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-next,#electronics-display  .carousel-control-next,,#arts-crafts-display .carousel-control-next,#  .carousel-control-next {
+#hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-next,#baby-display .carousel-control-next,#electronics-display  .carousel-control-next,#arts-crafts-display .carousel-control-next,
+#computers-display  .carousel-control-next,#automotive-display   .carousel-control-next,#beauty-personal-care-display .carousel-control-next,#womens-fashion-display .carousel-control-next{
   justify-content: right;
 }
 
-#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-prev, #smarthome-display .carousel-control-next,#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,
-#electronics-display  .carousel-control-next,#arts-crafts-display .carousel-control-next ,#computers-display  .carousel-control-prev,
-#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display  .carousel-control-next{
+#hotdeals-display .carousel-control-prev, #hotdeals-display .carousel-control-next,#smarthome-display .carousel-control-prev, #smarthome-display .carousel-control-next,#baby-display .carousel-control-prev,#baby-display .carousel-control-next,
+#electronics-display  .carousel-control-prev,#arts-crafts-display .carousel-control-prev,#electronics-display  .carousel-control-next,#arts-crafts-display .carousel-control-next ,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display  .carousel-control-next,#beauty-personal-care-display .carousel-control-prev,#beauty-personal-care-display .carousel-control-next
+,#womens-fashion-display .carousel-control-prev,#womens-fashion-display .carousel-control-next {
   width: 2.2%;
   z-index: 0;
 }
-#electronics-display  .carousel-control-prev,
-#electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display .carousel-control-next,#computers-display  .carousel-control-prev,
-#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next{
+#electronics-display  .carousel-control-prev,#electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display .carousel-control-next,#computers-display  .carousel-control-prev,
+#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next,#beauty-personal-care-display .carousel-control-prev,#beauty-personal-care-display .carousel-control-next
+,#womens-fashion-display .carousel-control-prev,#womens-fashion-display  .carousel-control-next {
   width: 4%;
   z-index: 0;
 }
@@ -350,7 +353,7 @@ ul ul {
   display: flex;
 }
 
-.hotdeals h3 ,.smarthome h3{
+.hotdeals h3 ,.smarthome h3,.baby h3{
   font-size: 20px;
 }
 
@@ -383,24 +386,24 @@ ul ul {
   margin-left: 76%;
 }
 /* Electronics & Computers View more */
-.electronics-and-computers .view-more, .arts-crafts-and-automotive .view-more {
+.electronics-and-computers .view-more, .arts-crafts-and-automotive .view-more,.beauty-personal-care-and-womens-fashion .view-more {
   color: #999;
   font-size: 12px;
   margin-left: 50%;
 }
 /* 1st Items display row list */
-.hotdeals ,.smarthome{
+.hotdeals ,.smarthome,.baby{
   overflow: hidden;
   margin-top: 16px;
   padding: 0 8px 12px;
   background: white;
 }
 
-.hotdeals .product-list .product-item ,.smarthome .product-list .product-item{
+.hotdeals .product-list .product-item ,.smarthome .product-list .product-item,.baby .product-list .product-item{
   width: 20%;
 }
 
-.hotdeals .product-list ,.smarthome .product-list {
+.hotdeals .product-list ,.smarthome .product-list,.baby .product-list{
   margin: 0;
   padding-left: 10px;
   padding-right: 15px;
@@ -435,7 +438,7 @@ ul ul {
   flex-direction: row;
 }
 
-.hotdeals .product-item .img-wrapper,.smarthome .product-item .img-wrapper {
+.hotdeals .product-item .img-wrapper,.smarthome .product-item .img-wrapper,.baby .product-item .img-wrapper {
   height: 224.8px;
   max-width: 224.8px;
 }
@@ -492,7 +495,7 @@ ul ul {
 }
 
 /* 2nd Items display row list( Electronics ,Computers) */
-.electronics-and-computers ,.arts-crafts-and-automotive{
+.electronics-and-computers ,.arts-crafts-and-automotive,.beauty-personal-care-and-womens-fashion{
   margin-top: 16px;
   display: flex;
   padding-left: 0;
@@ -501,7 +504,7 @@ ul ul {
 }
 
 
-.computers, .electronics,.arts-crafts,.automotive {
+.computers, .electronics,.arts-crafts,.automotive,.beauty-personal-care,.womens-fashion {
   width: 50%;
   overflow: hidden;
   margin-left: 0;
@@ -509,25 +512,25 @@ ul ul {
   padding: 0 8px 12px;
   background: white;
 }
-.electronics,.arts-crafts{
+.electronics,.arts-crafts,.beauty-personal-care{
   margin-right:  1%;
 }
 
-.computers,.automotive{
+.computers,.automotive,.womens-fashion{
  margin-left: 1%;
 }
 
-.computers .product-list .product-item,.automotive .product-list .product-item, .electronics .product-list .product-item,.arts-crafts .product-list .product-item {
+.computers .product-list .product-item,.automotive .product-list .product-item, .electronics .product-list .product-item,.arts-crafts .product-list .product-item,.beauty-personal-care .product-list .product-item,.womens-fashion .product-list .product-item{
   width: 50%;
 }
 
-.electronics .product-list, .computers .product-list ,.automotive .product-list,.arts-crafts .product-list{
+.electronics .product-list, .computers .product-list ,.automotive .product-list,.arts-crafts .product-list,.beauty-personal-care .product-list,.womens-fashion .product-list {
   margin: 0;
   padding-left: 10px;
   padding-right: 15px;
 }
 
-.electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive  .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper{
+.electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive  .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper,.beauty-personal-care .product-item .img-wrapper,.womens-fashion .product-item .img-wrapper{
   width: 100%;
   max-width: 235px;
   max-height: 162px;
@@ -714,32 +717,34 @@ ul ul {
   #submenu {
     display: none;
   }
-
+  .title-info {
+    width: 250px;
+  }
   .view-more {
-    margin-left: 80%;
+    margin-left: 75%;
   }
 
   .container {
     max-width: 100%;
   }
-/* 1st display (hot deals */
-.hotdeals .product-item .img-wrapper ,.smarthome .product-item .img-wrapper {
+/* 1st display (hot deals) , Smart Home*/
+.hotdeals .product-item .img-wrapper ,.smarthome .product-item .img-wrapper,.baby .product-item .img-wrapper {
   height: 170px;
   max-width: 224.8px;
 }
-  /* 2nd display list (Electronics & Computer) */
-  .electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper {
+  /* 2nd display list (Electronics , Computers , Arts&Crafts , Automotive,Beauty & Care*/
+  .electronics .product-item .img-wrapper, .computers .product-item .img-wrapper,.automotive .product-item .img-wrapper,.arts-crafts .product-item .img-wrapper,.beauty-personal-care .product-item .img-wrapper,.womens-fashion  .product-item .img-wrapper{
     width: 100%;
     max-width: 180px;
     max-height: 130px;
   }
-  #electronics-display  .carousel-control-prev,
-  #electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display  .carousel-control-next,#computers-display  .carousel-control-prev,
-  #computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next{
+  #electronics-display  .carousel-control-prev,#electronics-display  .carousel-control-next,#arts-crafts-display  .carousel-control-prev,#arts-crafts-display  .carousel-control-next,
+  #computers-display  .carousel-control-prev,#computers-display  .carousel-control-next,#automotive-display  .carousel-control-prev,#automotive-display .carousel-control-next,#beauty-personal-care-display .carousel-control-prev,
+  #beauty-personal-care-display .carousel-control-next,#womens-fashion-display .carousel-control-prev,#womens-fashion-display .carousel-control-next{
     width: 6.5%;
   }
-  /* Electronics & Computers View more */
-  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more{
+  /* Electronics & Computers ,Arts & Crafts , Automotive View more */
+  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more,.beauty-personal-care-and-womens-fashion .view-more{
     color: #999;
     font-size: 12px;
     margin-left: 55%;
@@ -766,7 +771,7 @@ ul ul {
   .view-more {
     margin-left: 87%;
   }
-  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more{
+  .electronics-and-computers .view-more,.arts-crafts-and-automotive .view-more,.beauty-personal-care-and-womens-fashion .view-more{
 
     margin-left: 73%;
   }
