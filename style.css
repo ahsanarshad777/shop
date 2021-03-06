@@ -294,7 +294,7 @@ ul ul {
 #hotdeals-display .carousel-control-prev, #smarthome-display .carousel-control-prev, #baby-display .carousel-control-prev, #electronics-display .carousel-control-prev, #arts-crafts-display .carousel-control-prev,
 #computers-display .carousel-control-prev, #automotive-display .carousel-control-prev, #beauty-personal-care-display .carousel-control-prev, #womens-fashion-display .carousel-control-prev,#mens-fashion-display .carousel-control-prev,
 #health-household-display .carousel-control-prev,#home-kitchen-display .carousel-control-prev,#industrial-scientific-display .carousel-control-prev,#luggage-display .carousel-control-prev,#movies-televisions-display .carousel-control-prev
-,#pet-supplies-display .carousel-control-prev,#softwares-display .carousel-control-prev,#sports-outdoors-display .carousel-control-prev,#tools-home-improvement-display .carousel-control-prev,#Toys-games-display.carousel-control-prev
+,#pet-supplies-display .carousel-control-prev,#softwares-display .carousel-control-prev,#sports-outdoors-display .carousel-control-prev,#tools-home-improvement-display .carousel-control-prev,#toys-games-display.carousel-control-prev
 ,#video-games-display .carousel-control-prev,#gifts-cards-display .carousel-control-prev{
   justify-content: left;
 }
@@ -302,7 +302,7 @@ ul ul {
 #hotdeals-display .carousel-control-next, #smarthome-display .carousel-control-next, #baby-display .carousel-control-next, #electronics-display .carousel-control-next, #arts-crafts-display .carousel-control-next,
 #computers-display .carousel-control-next, #automotive-display .carousel-control-next, #beauty-personal-care-display .carousel-control-next, #womens-fashion-display .carousel-control-next,#mens-fashion-display .carousel-control-next,
 #health-household-display .carousel-control-next,#home-kitchen-display .carousel-control-next,#industrial-scientific-display .carousel-control-next,#luggage-display .carousel-control-next,#movies-televisions-display .carousel-control-next
-,#pet-supplies-display .carousel-control-next,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-next,#tools-home-improvement-display .carousel-control-next,#Toys-games-display.carousel-control-Next
+,#pet-supplies-display .carousel-control-next,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-next,#tools-home-improvement-display .carousel-control-next,#toys-games-display.carousel-control-Next
 ,#video-games-display .carousel-control-next,#gifts-cards-display .carousel-control-next {
   justify-content: right;
 }
@@ -314,7 +314,7 @@ ul ul {
  #health-household-display .carousel-control-next,#home-kitchen-display .carousel-control-prev,#home-kitchen-display .carousel-control-next,#industrial-scientific-display .carousel-control-prev,#industrial-scientific-display .carousel-control-next
 ,#luggage-display .carousel-control-prev,#luggage-display .carousel-control-next,#movies-televisions-display .carousel-control-prev,#movies-televisions-display .carousel-control-next,#pet-supplies-display .carousel-control-prev,
 #pet-supplies-display .carousel-control-next,#softwares-display .carousel-control-prev,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-prev,#sports-outdoors-display .carousel-control-Next
-,#tools-home-improvement-display .carousel-control-prev,#tools-home-improvement-display .carousel-control-next,#Toys-games-display.carousel-control-prev,#Toys-games-display.carousel-control-next,#video-games-display .carousel-control-prev,
+,#tools-home-improvement-display .carousel-control-prev,#tools-home-improvement-display .carousel-control-next,#toys-games-display.carousel-control-prev,#toys-games-display.carousel-control-next,#video-games-display .carousel-control-prev,
 #video-games-display .carousel-control-next,#gifts-cards-display .carousel-control-prev,#gifts-cards-display .carousel-control-next  {
   width: 2.2%;
   z-index: 0;
@@ -324,8 +324,8 @@ ul ul {
 #computers-display .carousel-control-next, #automotive-display .carousel-control-prev, #automotive-display .carousel-control-next, #beauty-personal-care-display .carousel-control-prev, #beauty-personal-care-display .carousel-control-next,
 #womens-fashion-display .carousel-control-prev, #womens-fashion-display .carousel-control-next,#health-household-display .carousel-control-prev,#health-household-display .carousel-control-next,#home-kitchen-display .carousel-control-prev,
 #home-kitchen-display .carousel-control-next,#luggage-display .carousel-control-prev,#luggage-display .carousel-control-next,#movies-televisions-display .carousel-control-prev,#movies-televisions-display .carousel-control-next
-,#softwares-display .carousel-control-prev,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-prev,#sports-outdoors-display .carousel-control-next,#Toys-games-display.carousel-control-prev,
-#Toys-games-display.carousel-control-next,#video-games-display .carousel-control-prev,#video-games-display .carousel-control-next {
+,#softwares-display .carousel-control-prev,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-prev,#sports-outdoors-display .carousel-control-next,#toys-games-display .carousel-control-prev,
+#toys-games-display .carousel-control-next,#video-games-display .carousel-control-prev,#video-games-display .carousel-control-next {
   width: 4%;
   z-index: 0;
 }
@@ -783,7 +783,7 @@ ul ul {
   #health-household-display .carousel-control-next,#home-kitchen-display .carousel-control-prev,#home-kitchen-display .carousel-control-next,
   #luggage-display .carousel-control-prev,#luggage-display .carousel-control-next,#movies-televisions-display .carousel-control-prev,#movies-televisions-display .carousel-control-next
   ,#softwares-display .carousel-control-prev,#softwares-display .carousel-control-next,#sports-outdoors-display .carousel-control-prev,#sports-outdoors-display .carousel-control-next,
-  #Toys-games-display.carousel-control-prev,#Toys-games-display.carousel-control-next,#video-games-display .carousel-control-prev,#video-games-display .carousel-control-next{
+  #toys-games-display.carousel-control-prev,#toys-games-display.carousel-control-next,#video-games-display .carousel-control-prev,#video-games-display .carousel-control-next{
     width: 6.5%;
   }
 
