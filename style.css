@@ -461,7 +461,7 @@ ul ul {
 
 .hotdeals .product-item .img-wrapper, .smarthome .product-item .img-wrapper, .baby .product-item .img-wrapper,
 .mens-fasion .product-item .img-wrapper,.industrial-scientific .product-item .img-wrapper,.pet-supplies .product-item .img-wrapper
-,.tools-home-improvement .product-item .img-wrapper,.gifts-cards .product-item .img-wrapper
+,.tools-home-improvement .product-item .img-wrapper,.gifts-cards .product-item .img-wrapper{
   height: 224.8px;
   max-width: 224.8px;
 }
