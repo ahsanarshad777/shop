@@ -26,6 +26,12 @@
 
 <body>
 
+   <!-- Preloader lodding animation  -->
+
+<div class="loader_bg">
+  <div class="loader"></div>
+
+</div>
   <section id="top-navbar">
 
 
@@ -2345,6 +2351,10 @@
 
 
   </section>
+  <!-- Back to Top Button -->
+  <div class="scrolltop" onclick="scrolltoTop();">
+
+  </div>
   <section id="main-page">
     <div class="container container-radius">
       <div class="left-display">
@@ -3046,6 +3056,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Back to top Button JavaScript -->
+
+<script type="text/javascript">
+window.addEventListener('scroll',function(){
+  var scroll = document.querySelector('.scrolltop');
+  scroll.classList.toggle("active" , window.scrollY > 500)
+})
+
+function scrolltoTop(){
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  })
+}
+
+</script>
 
     <!-- Smart Home -->
 
@@ -7176,6 +7203,13 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
+
+  <!-- Preloader Loading Scripting -->
+  <script type="text/javascript">
+    setTimeout(function(){
+      $('.loader_bg').fadeToggle();
+    },1500);
+  </script>
 </body>
 
 </html>
