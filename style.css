@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
 /* Top Navigation Bar */
 .topnavbar {
   position: fixed;
-  z-index: 1;
+  z-index: 99999;
   height: 3.8rem;
   width: 100%;
   background-color: #0f4c75;
@@ -190,7 +190,7 @@ body::-webkit-scrollbar-thumb, .navbar::-webkit-scrollbar-thumb {
   top: 0;
   width: 4.2rem;
   height: 100vh;
-  z-index: 1;
+  z-index: 9999999999;
   position: fixed;
   font-family: 'Roboto', sans-serif;
   background-color: #3282b8;
@@ -637,7 +637,10 @@ ul ul {
   max-width: 235px;
   max-height: 162px;
 }
-
+/* Instagram Feed */
+.eapps-widget {
+  z-index: 0;
+}
 /* Footer */
 #footer {
   text-align: center;
